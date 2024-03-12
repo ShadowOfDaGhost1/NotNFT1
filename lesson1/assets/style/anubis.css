@@ -1,0 +1,13 @@
+
+.card{
+
+  background-image: linear-gradient(
+  to bottom,
+  #FFF7EB,
+  #FED39A
+);
+box-shadow: 0 6px 6px rgba(#000, 0.3);
+transition: 200ms;
+max-width: 720px;
+margin: 5% auto;
+}

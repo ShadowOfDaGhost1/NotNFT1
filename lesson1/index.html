@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html> 
+        <meta charset="UTF8">
+        <link rel="stylesheet"
+        href="assets/style/style.css">
+        <link rel="anubis.css">
+        <title>NotNFT</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </html>
+    
+
+    <style>
+        body {
+            background-image: url('./assets/images/Fon.svg');
+            background-repeat: no-repeat;
+            background-size: cover;  
+    }
+    </style>
+
+    <header class="header">
+
+        <div class="container">
+
+            <div class="header-content">
+                <img
+                src="assets/images/notnft.svg"
+                alt="Logo"> 
+             
+            
+                <div id="root"></div>
+                <script src="connectwallet.js"></script>
+                <script>
+                    ReactDOM.render(
+                    React.createElement(connectwallet, null),
+                    document.getElementById('root')
+                    );
+                </script>
+                <a href="#" class="button">Connect Wallet</a>
+       
+            
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+        <script src="main.js"></script>
+
+        <section class="main_welcome">
+
+            <div class="main_start">
+            <span class="nnot">Not</span> <span>Scroll</span> <span class="not">Not</span> <span>Collection</span>
+            </div>
+
+            <section class="main_collection">
+                <div class="nfts1r">
+                    <a href="plate_nft.html">
+                        <img src="assets/images/Plate_nft.svg" alt="Plate NFT">
+                    </a>
+                    <a href="robot_nft.html">
+                        <img src="assets/images/Robot_nft.svg" alt="Robot NFT">
+                    </a>
+                    <a href="krest_nft.html">
+                        <img src="assets/images/Krest_nft.svg" alt="Krest NFT">
+                    </a>
+                </div>
+                <div class="nfts2r">
+                    <a href="tutan_nft.html">
+                        <img src="assets/images/Tutan_nft.svg" alt="Tutan NFT">
+                    </a>
+        
+                    <a href="#" class="nft-item">
+                        <img src="assets/images/Anubis_nft.svg" alt="Plate NFT">
+                        </div>
+                        
+                    </a>
+                </div>
+            </section>
+            
+
+    </main>
+
+    <hr class="razdelitel">
+
+
+    <footer>
+
+        <div class="socialki"> 
+
+        </div>
+
+        <p>&copy; 2024 NotNFT All rights reserved.</p>
+    </footer>
+
+
+    <div class="card">
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <span class="close" id="close">&times;</span>
+                <img src="assets/images/anubismint.svg" alt="nftmint" class="nftmint">
+                <button class="mint-button">Mint</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+
+
+</html>
